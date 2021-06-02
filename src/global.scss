@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Aware';
+    src:  url('./fonts/AwareBold-qZo3x.ttf') format('ttf'),
+  }
+
+$white: #ffffff;
+$red: #FA5C66;
+$blue: #00A4FA;
+$yellow: #FFD026;
+$grey: #BABDBE;
+$black: #000000;
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color:$blue;
+    width: 100%;
+  }

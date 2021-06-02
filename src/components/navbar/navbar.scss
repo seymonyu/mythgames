@@ -1,18 +1,37 @@
-.navbar-container{
+@import '../../global.scss';
+
+
+
+.navbar--container{
     position:relative;
+    background-color: $blue;
+    margin:0cm;
+    padding: 0;
+    display:inline-block;
+    width: 100%;
+  }
+  .navbar--logo {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+  }
+  
+  .logo {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 80%;
   }
   
   .navbar--wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 13%;
-    background-color: black;
     position: fixed;
     z-index: 10;
     top: 0;
     left: 0;
+    text-align: right;
   }
   .navbar--hidden{
      display: flex;
@@ -20,7 +39,6 @@
     align-items: center;
     width: 100%;
     height: 13%;
-    background-color: black;
     position: fixed;
     z-index: 10;
     top: 0;
@@ -32,6 +50,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin-top: 30px;
+    
   
   }
 
@@ -41,14 +61,15 @@
   
     .navbar--list_link {
       text-decoration: none;
-      color: black;
+      color: $black;
+      font-family: Aware;
       -webkit-transition: all 500ms ease;
       -moz-transition: all 500ms ease;
       -o-transition: all 500ms ease;
       transition: all 500ms ease;
       &:visited {
         text-decoration: none;
-        color: black;
+        color: $black;
       }
       &:hover {
         font-size: 16pt;
@@ -132,6 +153,7 @@
   .navbar--wrapper{
   
       height:100vh;
+      background-color:$blue;
       position:absolute;
       top:0px;
       right:0px;

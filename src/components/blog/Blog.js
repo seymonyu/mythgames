@@ -1,12 +1,12 @@
 import React from "react";
-import "./contact.scss";
+import "./blog.scss";
 
-function Contact() {
+function Blog() {
   return (
     <div className="about--wrapper">
-    CONTACT
+    BLOG
     </div>
   );
 }
 
-export default Contact;
+export default Blog;

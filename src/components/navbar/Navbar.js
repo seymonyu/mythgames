@@ -1,12 +1,16 @@
 import React from "react";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
+import logo from "../../logos/mythgames.png"
 
 function Navbar() {
  
  
   return (
    <div className='navbar--container'>
+      <div class="navbar--logo">
+      <img class="logo" alt= "logo" src={logo}/>
+      </div>
       <ul className="navbar--list">
         <li className="navbar--list_item">
           {" "}
@@ -22,15 +26,15 @@ function Navbar() {
         </li>
         <li className="navbar--list_item">
           {" "}
-          <Link className="navbar--list_link" to="/music" >
-            MUSIC
+          <Link className="navbar--list_link" to="/games" >
+            GAMES
           </Link>
         </li>
      
         <li className="navbar--list_item">
           {" "}
-          <Link className="navbar--list_link" to="/media">
-            MEDIA
+          <Link className="navbar--list_link" to="/blog">
+            BLOG
           </Link>
         </li>
         <li className="navbar--list_item">

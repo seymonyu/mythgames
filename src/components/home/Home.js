@@ -1,12 +1,12 @@
 import React from "react";
-import "./home.css";
+import "./home.scss";
 
-function Home() {
+function About() {
   return (
     <div className="home--wrapper">
-    
+    HOME
     </div>
   );
 }
 
-export default Home;
+export default About;

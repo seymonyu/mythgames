@@ -1,12 +1,12 @@
 import React from "react";
-import "./contact.scss";
+import "./games.scss";
 
-function Contact() {
+function Games() {
   return (
     <div className="about--wrapper">
-    CONTACT
+    GAMES
     </div>
   );
 }
 
-export default Contact;
+export default Games;
