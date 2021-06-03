@@ -2,9 +2,11 @@
 
 
 .about--wrapper{
-    height: 668px;
+    height: 90vh;
     width: 100%;
     background-color: $blue;
     margin:0%;
-    padding:0;
+    padding:0;display: flex;
+    justify-content: center;
+    align-items: center;  
 }

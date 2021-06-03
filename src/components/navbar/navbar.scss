@@ -3,12 +3,10 @@
 
 
 .navbar--container{
-    position:relative;
-    background-color: $blue;
-    margin:0cm;
-    padding: 0;
-    display:inline-block;
+    position:absolute;
     width: 100%;
+    top:0;
+    left: 0;
   }
   .navbar--logo {
     position:absolute;
@@ -61,7 +59,7 @@
   
     .navbar--list_link {
       text-decoration: none;
-      color: $black;
+      color: $white;
       font-family: Aware;
       -webkit-transition: all 500ms ease;
       -moz-transition: all 500ms ease;
@@ -69,7 +67,7 @@
       transition: all 500ms ease;
       &:visited {
         text-decoration: none;
-        color: $black;
+        color: $white;
       }
       &:hover {
         font-size: 16pt;

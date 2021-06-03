@@ -2,9 +2,32 @@
 
 
 .home--wrapper{
-    height: 668px;
-    width: 100%;
-    background-color: $blue;
     margin:0%;
     padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $blue;  
+}
+
+.home--page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+#home--one{
+    background-color: $blue;  
+}
+
+#home--two{
+    background-color: $white;  
+}
+
+#home--three{
+    background-color: $red;  
 }
