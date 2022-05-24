@@ -1,29 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from "./components/footer/Footer";
-import About from "./components/about/About";
-import Home from "./components/home/Home";
-import Games from "./components/games/Games";
-import Contact from "./components/contact/Contact";
-
-const Routing = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/games" exact component={Games} />
-        <Route path="/about" exact component={About} />
-        <Route path="/contact" exact component={Contact} />
-      </Routes>
-      <Footer />
-    </Router>
-  );
-};
+import "./index.css";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Routing />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </BrowserRouter>,
+
   document.getElementById("root")
 );
