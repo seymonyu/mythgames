@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'awarebold';
+    src: url('awarebold-qzo3x-webfont.woff2') format('woff2'),
+         url('awarebold-qzo3x-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
