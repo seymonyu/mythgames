@@ -2,12 +2,12 @@ import React from 'react';
 import './home.css';
 import logo from '../../imgs/logo.png' 
 
-function Home() {
+function NavBar() {
     return (
         <div>
-        <div className='home-div'>
+        <div className='navbar-div'>
             
-        <img src={logo} alt="Logo" height={600} />
+        <img src={logo} alt="Logo" height={60} />
         </div>
         </div>
         
