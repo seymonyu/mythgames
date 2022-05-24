@@ -6,7 +6,7 @@ function Home(props) {
     return (
         <div>
         <div className='placeholder'>
-        <img src={logo} alt="Logo" />;
+        <img src={logo} alt="Logo" height={600} />
         </div>
         </div>
         
