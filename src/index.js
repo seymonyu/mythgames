@@ -11,7 +11,6 @@ import Contact from './components/contact/Contact'
 const Routing = () => {
   return(
     <Router>
-      <NavBar/>
       <Routes>
       <Route path="/" exact component={Home} />
         <Route path="/games" exact component={Games} />
