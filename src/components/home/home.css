@@ -19,7 +19,11 @@ p{font-family:'Open Sans', Sans-Serif;
     font-size: 20pt;
 
 }
-a{ font-size: 20pt;
+a.home-link{ font-size: 20pt;
+    text-decoration: none;
+    color: #FA5C66;
+}
+a{ 
     text-decoration: none;
     color: #FA5C66;
 }
@@ -27,5 +31,4 @@ a{ font-size: 20pt;
 span{
     padding-left:10px; 
     padding-right:10px; 
-    font-size: 20pt;
 }
