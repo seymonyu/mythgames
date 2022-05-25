@@ -6,7 +6,6 @@
   position: fixed;
   top: 0px;
   left: 0px;
-
   vertical-align: bottom;
   align-items: flex-end;
 }
@@ -14,9 +13,9 @@
 .navbar-logo {
   padding: 0%;
   position: absolute;
-  left: 0px;
   vertical-align: top;
   margin-top: 10px;
+  display: flex;
 
 }
 
@@ -55,16 +54,13 @@
   margin: 0;
 }
 
-a,
 a:visited,
 a:hover,
 a:active {
-  color: inherit;
-  font-size: 16pt;
-  transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 a:hover {
-  font-size: 17pt;
-
+  font-size: 22pt;
+  color:#B0E077;
 }

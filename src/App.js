@@ -12,10 +12,10 @@ function App() {
       <div>
         <NavBar />
         <Routes>
-          <Route path="/" exact component={Home} />
-          <Route path="/games" exact component={Games} />
-          <Route path="/about" exact component={About} />
-          <Route path="/contact" exact component={Contact} />
+          <Route path="/" exact element={<Home/>}  />
+          <Route path="/games" exact component={<Games/>} />
+          <Route path="/about" exact component={<About/>} />
+          <Route path="/contact" exact component={<Contact/>} />
         </Routes>
       </div>
     </div>

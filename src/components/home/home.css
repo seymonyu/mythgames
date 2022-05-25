@@ -1,7 +1,31 @@
 
 .home-div{
-    color: #000;
-    font-size: 200pt;
-    background-color: #ffffff;
-    height: 100em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    width: 100%;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{font-family: 'Arial Rounded MT Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+
+}
+a{ font-size: 20pt;
+    text-decoration: none;
+    color: #FA5C66;
+}
+
+span{
+    padding-left:10px; 
+    padding-right:10px; 
+    font-size: 20pt;
 }
