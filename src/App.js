@@ -5,6 +5,7 @@ import Games from "./components/games/Games";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import { Routes, Route } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" exact component={<About/>} />
           <Route path="/contact" exact component={<Contact/>} />
         </Routes>
+        <Footer/>
       </div>
     </div>
   );
