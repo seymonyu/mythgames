@@ -1,8 +1,9 @@
+@import './../../stylesheets/global.scss';
+
 .navbar-div {
   width: 100%;
   height: 200px;
   text-align: initial;
-  background-color: rgba(237, 237, 241, 0);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -43,23 +44,24 @@
   color: #00a4fa;
   padding: 20px 20px;
   text-decoration: none;
-  font-family: "awarebold";
+  font-family: $display;
   margin: 0;
 }
 
 .navbar-link {
   text-decoration: none;
-  font-family: "aware-bold";
+  font-size: $display-size;
+  font-family: $display;
   padding: 0%;
   margin: 0;
 }
 
-a:visited,
-a:hover,
-a:active {
+.navbar-link:visited{
+  color: inherit;
+}
+.navbar-link:hover,
+.navbar-link:active{
   transition: all .5s ease-in-out;
+  color: $green;
 }
 
-a:hover {
-  color:#B0E077;
-}

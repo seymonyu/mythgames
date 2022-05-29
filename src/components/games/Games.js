@@ -1,9 +1,11 @@
+import "./games.scss";
+
 import React from 'react';
 
 function Games(props) {
     return (
         <div>
-            GAMES
+            <div className='games-div'></div>
         </div>
     );
 }

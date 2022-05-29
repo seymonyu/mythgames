@@ -1,3 +1,4 @@
+@import './../../stylesheets/global.scss';
 
 .home-div{
     width: 100%;
@@ -5,27 +6,18 @@
     justify-content: center;
     align-items: center;
     height:700px;
-    width: 100%;
-}
-h1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-p{font-family:'Open Sans', Sans-Serif;
-    justify-content: center;
-    align-items: center;
-    font-size: 20pt;
-
-}
 a.home-link{ font-size: 20pt;
     text-decoration: none;
     color: #FA5C66;
 }
-a{ 
-    text-decoration: none;
-    color: #FA5C66;
+a.home-link:hover{
+    color: $green ;
+    transition: all .5s ease-in-out;
 }
 
 span{

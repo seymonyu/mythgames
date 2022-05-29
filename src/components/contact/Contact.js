@@ -1,9 +1,10 @@
 import React from 'react';
+import "./contact.scss";
 
 function Contact(props) {
     return (
-        <div>
-            
+        <div className='contact-div'>
+            CONTACT US
         </div>
     );
 }
